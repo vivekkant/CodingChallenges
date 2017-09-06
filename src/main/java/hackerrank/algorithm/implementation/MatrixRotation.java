@@ -58,8 +58,6 @@ public class MatrixRotation {
 		
 		flatToRing(rflat, rotated, ring);
 		
-//		System.out.println("flat-> " + ring + " " + Arrays.toString(flat));
-//		System.out.println("rflat-> " + ring + " " + Arrays.toString(rflat));
 	}
 	
 	public static int[] ringToFlat(int[][] source, int ring) {
