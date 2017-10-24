@@ -20,9 +20,8 @@ public class BinaryNumbers {
         		current++;
         	}
         	n = n / 2;
-        	System.out.print(b);
         }
-        System.out.println();
+        max = (current > max) ? current : max;
         System.out.println(max);
 	}
 
