@@ -1,10 +1,10 @@
 package hackerrank.contests._30days;
 import java.util.Scanner;
 
-class Node {
+class Node3 {
 	int data;
-	Node next;
-	Node(int d) {
+	Node3 next;
+	Node3(int d) {
         data = d;
         next = null;
     }
@@ -12,14 +12,14 @@ class Node {
 
 public class LinkedList {
 	
-    public static Node insert(Node head,int data) {
-        Node node = new Node(data);
+    public static Node3 insert(Node3 head,int data) {
+        Node3 node = new Node3(data);
         
         if (head == null) {
         		head = node;
         }
         else {
-            Node curr = head;
+            Node3 curr = head;
             while (curr.next != null) {
             		curr = curr.next;
             }
@@ -30,8 +30,8 @@ public class LinkedList {
     }
 
 	
-	public static void display(Node head) {
-        Node start = head;
+	public static void display(Node3 head) {
+        Node3 start = head;
         while(start != null) {
             System.out.print(start.data + " ");
             start = start.next;
@@ -40,7 +40,7 @@ public class LinkedList {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        Node head = null;
+        Node3 head = null;
         int N = sc.nextInt();
 
         while(N-- > 0) {
