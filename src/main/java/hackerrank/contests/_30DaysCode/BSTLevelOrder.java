@@ -1,4 +1,4 @@
-package hackerrank.contests._30days;
+package hackerrank.contests._30DaysCode;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
