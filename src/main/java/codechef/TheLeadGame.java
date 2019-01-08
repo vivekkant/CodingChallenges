@@ -28,6 +28,8 @@ public class TheLeadGame {
             }
         }
         System.out.println(p + " " + max);
+        
+        in.close();
     }
 
 }
