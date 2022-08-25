@@ -20,6 +20,6 @@ if __name__ == '__main__':
         elif command[0] == 'reverse':
             l.reverse()
 
-    
+     
 
 
